@@ -30,7 +30,7 @@ static PyObject *method_example_init(ExampleObject_t *self, PyObject *args)
 }
 
 /**
- * @brief Ftd2xxGpio class members
+ * @brief example class members
  */
 static PyMemberDef members_example[] = {
     {NULL, 0, 0, 0, NULL} // Sentinel
@@ -42,7 +42,7 @@ static PyMethodDef methods_example[] = {
 };
 
 /**
- * @brief Ftd2xxGpio Init method
+ * @brief example Init method
  */
 static int Example_init(ExampleObject_t *self, PyObject *args, PyObject *kwds)
 {
